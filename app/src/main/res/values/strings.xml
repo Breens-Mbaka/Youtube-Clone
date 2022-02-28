@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">YoutubeClone</string>
+    <string name="youtube_icon">Youtube Icon</string>
 </resources>
