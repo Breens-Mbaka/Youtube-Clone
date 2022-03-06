@@ -1,4 +1,4 @@
-package com.breens.youtubeclone.homescreen
+package com.breens.youtubeclone.views.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import com.breens.youtubeclone.R
 import com.breens.youtubeclone.databinding.FragmentHomeScreenBinding
 

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashScreen"
-        android:name="com.breens.youtubeclone.splashscreen.FragmentSplash"
+        android:name="com.breens.youtubeclone.views.fragments.FragmentSplash"
         android:label="fragment_splash_screen"
         tools:layout="@layout/fragment_splash_screen" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentHomeScreen"
-        android:name="com.breens.youtubeclone.homescreen.FragmentHomeScreen"
+        android:name="com.breens.youtubeclone.views.fragments.FragmentHomeScreen"
         android:label="FragmentHomeScreen"
         tools:layout="@layout/fragment_home_screen"/>
 </navigation>

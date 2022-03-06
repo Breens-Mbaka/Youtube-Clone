@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".splashscreen.FragmentSplash">
+    tools:context=".views.fragments.FragmentHomeScreen">
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/home_scrollview"
@@ -121,7 +121,7 @@
                             android:scrollbars="none">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent">
                                 <com.google.android.material.chip.Chip
                                     android:id="@+id/exploreChip"
@@ -156,6 +156,13 @@
                                         android:layout_height="wrap_content"
                                         android:text="All"
                                         app:chipBackgroundColor="#9A9898"
+                                        android:layout_marginTop="10dp"
+                                        android:textStyle="bold"/>
+                                    <com.google.android.material.chip.Chip
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="New to you"
+                                        app:chipStrokeColor="@color/green"
                                         android:layout_marginTop="10dp"
                                         android:textStyle="bold"/>
                                     <com.google.android.material.chip.Chip
@@ -259,7 +266,6 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.appbar.AppBarLayout>
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 

@@ -1,18 +1,20 @@
-package com.breens.youtubeclone.splashscreen
+package com.breens.youtubeclone.views.fragments
 
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.breens.youtubeclone.R
 import com.breens.youtubeclone.databinding.FragmentSplashScreenBinding
 
-class FragmentSplash: Fragment(R.layout.fragment_splash_screen) {
+class FragmentSplash : Fragment(R.layout.fragment_splash_screen) {
     private var _binding: FragmentSplashScreenBinding? = null
     private val binding get() = _binding!!
 
@@ -20,7 +22,7 @@ class FragmentSplash: Fragment(R.layout.fragment_splash_screen) {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentSplashScreenBinding.inflate(inflater, container, false)
         hideActionBar()
         navigateToHomeScreen()
@@ -30,7 +32,7 @@ class FragmentSplash: Fragment(R.layout.fragment_splash_screen) {
     private fun navigateToHomeScreen() {
         Handler(Looper.getMainLooper()).postDelayed({
             findNavController().navigate(R.id.action_splashScreen_to_fragmentHomeScreen)
-        },3000)
+        }, 3000)
     }
 
     private fun hideActionBar() {

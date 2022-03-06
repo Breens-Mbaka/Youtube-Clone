@@ -1,10 +1,11 @@
-package com.breens.youtubeclone
+package com.breens.youtubeclone.views.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import com.breens.youtubeclone.R
 import com.breens.youtubeclone.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
