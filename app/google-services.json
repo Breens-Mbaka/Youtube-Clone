@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "548393335121",
+    "project_id": "clone-1f3de",
+    "storage_bucket": "clone-1f3de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548393335121:android:f59aa9bf9448ef41f73b70",
+        "android_client_info": {
+          "package_name": "com.breens.youtubeclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548393335121-6gjq1dh69jqjsp08ekqov9aoppqne8n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpCbf9BZUc3rdmj6fC_XvWKd8b74DKI08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548393335121-6gjq1dh69jqjsp08ekqov9aoppqne8n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

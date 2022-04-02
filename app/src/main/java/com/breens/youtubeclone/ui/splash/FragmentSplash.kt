@@ -1,19 +1,19 @@
-package com.breens.youtubeclone.views.fragments
+package com.breens.youtubeclone.ui.splash
 
-import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.breens.youtubeclone.R
 import com.breens.youtubeclone.databinding.FragmentSplashScreenBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class FragmentSplash : Fragment(R.layout.fragment_splash_screen) {
     private var _binding: FragmentSplashScreenBinding? = null
     private val binding get() = _binding!!
