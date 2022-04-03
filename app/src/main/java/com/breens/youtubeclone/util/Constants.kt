@@ -21,7 +21,7 @@ class Constants {
         //REGION_CODE
         const val REGION_CODE = "US"
 
-        //PUT YOUR OWN GOOGLE API KEY
-        const val KEY = "AIzaSyC6ZI0UPrw4QiH386kZ9s8sumbOBXFYW20"
+        //PUT YOUR OWN GOOGLE API KEY👇
+        const val KEY = ""
     }
 }
