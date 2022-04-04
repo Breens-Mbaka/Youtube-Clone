@@ -17,6 +17,9 @@ This app consumes The Youtube Api to fetch and display a list of popular videos,
 <img src="/images/splashscreen.png" width="260">&emsp;
 <img src="/images/homescreen.png" width="260">
 
+## Demo
+https://user-images.githubusercontent.com/72180010/161577746-5d8e7c6e-c107-430d-94ce-306e50ca52d5.mp4
+
 ## Libraries
 * Navigation Components - To implement the Single Activity approach since fragments are lightweight than activities and allows easy passing of data between arguments in a type safe way
 * Retrofit - A Type-safe HTTP client for Android which simplifies consuming RESTFul APIs.
